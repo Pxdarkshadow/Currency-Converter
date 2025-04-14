@@ -1,0 +1,61 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.card {
+    border-radius: 12px;
+    overflow: hidden;
+    border: none;
+}
+.card-header {
+    border-bottom: none;
+}
+.result-box {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    border-radius: 12px;
+}
+.amount-box {
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    min-width: 120px;
+}
+.amount-box .currency-code {
+    font-weight: bold;
+    color: #0d6efd;
+}
+.amount-box .amount {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 8px 0;
+}
+.amount-box .currency-name {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+.currency-card {
+    transition: transform 0.2s ease;
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+}
+.currency-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.btn-primary {
+    font-weight: 600;
+}
+.footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+@media (max-width: 767px) {
+    .row.mb-3 > div {
+        margin-bottom: 1rem;
+    }
+}
