@@ -16,7 +16,7 @@ A simple web-based currency converter built with Django that performs real-time 
 ## 🛠️ Tech Stack
 
 - **Backend**: Python 3, Django 4+
-- **Frontend**: HTML, CSS (optional: Bootstrap for styling)
+- **Frontend**: HTML, CSS 
 - **Database**: SQLite (default Django DB)
 
 ---
@@ -56,7 +56,7 @@ currency_converter/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/django-currency-converter.git
+git clone https://github.com/Pxdarkshadow/django-currency-converter.git
 cd django-currency-converter
 ```
 
@@ -64,7 +64,7 @@ cd django-currency-converter
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv\Scripts\activate
 ```
 
 ### 3. Install Dependencies
@@ -97,7 +97,7 @@ Then open your browser and go to:
 
 ## 🔄 How It Works
 
-- A fixed dictionary of currency rates (relative to a base currency like USD) is stored in `views.py` or optionally in a model.
+- A fixed dictionary of currency rates (relative to a base currency like USD) is stored in `views.py`.
 - The user selects the source and target currencies, enters the amount, and the view calculates the converted value using simple math.
 - No external API is used, so it's ideal for offline use or educational purposes.
 
@@ -119,14 +119,9 @@ converted_amount = (amount / source_rate) * target_rate
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots of your website here for visual reference (if available)
-
----
-
 ## ✨ Future Improvements
 
+- Use of pre existing API
 - Admin interface to update rates dynamically
 - Add historical conversion tracking
 - Add unit tests
